@@ -6,23 +6,25 @@ function App() {
       <div className="w-full h-full bg-white md:max-w-[45rem] md:p-6 p-0 md:rounded-3xl">
         <img src={Img} alt="Omelette" className="md:rounded-xl" />
 
-        <div className="flex flex-col container m-auto md:py-5 p-5 gap-7 text-amber-950 text-opacity-60">
-          <h1 className="text-4xl  text-black">Simple Omelette Recipe</h1>
+        <div className="flex flex-col container m-auto p-5 md:p-0 md:py-5 gap-7 text-amber-950 text-opacity-60 font-Outfit">
+          <h1 className="text-4xl  text-black font-young">
+            Simple Omelette Recipe
+          </h1>
           <p>
             An easy and quick dish, perfect for any meal. This classic omelette
             combines beaten eggs cooked to perfection, optionally filled with
             your choice of cheese, vegetables, or meats.
           </p>
           <div className="bg-fuchsia-50 p-5 rounded-xl">
-            <h2 className="text-fuchsia-800 text-xl text-opacity-100">
+            <h2 className="text-fuchsia-800 text-xl text-opacity-100 ">
               Preparation time
             </h2>
-            <ul className="flex flex-col gap-3 pt-3">
-              <li className="flex">
-                <strong className="pe-2 text-amber-950">Total:</strong>
+            <ul className="flex flex-col gap-3 pt-3 ">
+              <li className="flex ">
+                <strong className="pe-2 text-amber-950 ">Total:</strong>
                 Approximately 10 minutes
               </li>
-              <li className="flex">
+              <li className="flex ">
                 <strong className="pe-2  text-amber-950">Preparation:</strong>5
                 minutes
               </li>
@@ -32,8 +34,10 @@ function App() {
               </li>
             </ul>
           </div>
-          <ul className="flex flex-col gap-3 pt-3 border-b pb-8">
-            <h2 className="text-amber-900 text-3xl pb-2">Ingredients</h2>
+          <h2 className="text-amber-900 text-3xl pb-2 font-young">
+            Ingredients
+          </h2>
+          <ul className="flex flex-col gap-3 ps-5 border-b pb-8 list-disc ">
             <li>2-3 large eggs</li>
             <li>5 minutes</li>
             <li>Salt, to taste Pepper</li>
@@ -42,8 +46,10 @@ function App() {
               Optional fillings: cheese, diced vegetables, cooked meats, herbs
             </li>
           </ul>
-          <ul className="flex flex-col gap-3 pt-3 border-b pb-8">
-            <h2 className="text-amber-900 text-3xl pb-2">Instructions</h2>
+          <h2 className="text-amber-900 text-3xl pb-2 font-young">
+            Instructions
+          </h2>
+          <ul className="flex flex-col gap-3 pt-3 border-b pb-8 list-decimal ps-5">
             <li>
               <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a
               pinch of salt and pepper until they are well mixed. You can add a
@@ -74,7 +80,7 @@ function App() {
               if needed.
             </li>
           </ul>
-          <h2 className="text-amber-900 text-3xl">Nutrition</h2>
+          <h2 className="text-amber-900 text-3xl font-young">Nutrition</h2>
           <p>
             The table below shows nutritional values per serving without the
             additional fillings.
